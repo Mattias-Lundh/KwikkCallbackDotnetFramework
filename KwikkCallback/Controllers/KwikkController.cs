@@ -9,7 +9,7 @@ namespace WebApplication2.Controllers
         {
             // ToDo: interesting things with data contained in [callbackDto]
 
-            return "I have recieved some data";
+            return "I have received some data";
         }
     }
 }
