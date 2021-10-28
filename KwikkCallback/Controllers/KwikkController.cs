@@ -7,7 +7,9 @@ namespace WebApplication2.Controllers
         [HttpPost]
         public string Callback(CallbackDto callbackDto)
         {
-            return callbackDto.art_spec;
+            // ToDo: interesting things with data contained in [callbackDto]
+
+            return "I have recieved some data";
         }
     }
 }
